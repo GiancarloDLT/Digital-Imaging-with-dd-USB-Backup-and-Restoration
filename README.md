@@ -40,3 +40,25 @@ This project demonstrates the process of creating a digital image backup of a US
   <img src="https://i.imgur.com/AYBBaKg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+<b> In this step, I reformatted the USB stick to the FAT-32 file system, effectively clearing its contents. As shown in the following screenshot, the USB stick is now empty and ready for further operations. <b/> 
+<br>
+<br>
+  <img src="https://i.imgur.com/n5aU4nE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<b> The following command demonstrates the process of restoring the USB stick by simply swapping the input (if) and output (of) files from the backup image.<b/> 
+<br>
+<br>
+  <img src="https://i.imgur.com/zhrjbXG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<b> The screenshot shows the successful restoration of files to the USB stick, verified by running the ls command in Linux and viewing the file directory in Windows. <b/> 
+<br>
+<br>
+  <img src="https://i.imgur.com/OSx4BPi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/I1OIFNY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
