@@ -1,4 +1,3 @@
-# Digital-Imaging-with-dd-USB-Backup-and-Restoration
 
 <h1>Digital Imaging With dd: USB Backup And Resoration</h1>
 
