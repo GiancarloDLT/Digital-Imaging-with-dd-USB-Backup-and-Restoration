@@ -16,27 +16,27 @@ This project demonstrates the process of creating a digital image backup of a US
 <h2>Languages and Utilities Used</h2>
 
 - <b>Bash</b> 
-- <b>xxd</b>
-- <b>[Gary Kessler's Website](https://www.garykessler.net/library/file_sigs.html)</b>
+- <b>dd</b>
 
 <h2>Environments Used </h2>
 
 - <b>Kali Linux</b>
+- <b>Windows 10</b>
 
 <h2>Walk-through:</h2>
 <br>
 <br>
 <p align="left">
-<h3> In this section, we will explore the file signatures of the "cat.jpg" image:</h3>
+<b> The following screenshot displays the disk and its contents in Windows. For this project, I am utilizing a 1GB USB stick formatted with the FAT32 file system, which contains five files.<b/>
 <br>
 <br>
-  <img src="https://i.imgur.com/AjYToXE.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/60zOPia.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
-<b> The following screenshot comes from Gary Kessler's Website, showcasing the header (FF D8) and trailer (FF D9) of a JPG file.<b/> 
+<b> This screenshot demonstrates the creation of a digital image file named imagefat32backup.raw using the dd command in Linux. The command used is sudo dd if=/dev/sdb of=./imagefat32backup.raw bs=1M conv=sync,noerror. Here, /dev/sdb represents the USB stick being imaged, located in the system's /dev directory. You can identify your USB device by running the fdisk -l command. The if= argument specifies the input file or device, while of= defines the output destination and filename for the image. <b/> 
 <br>
 <br>
-  <img src="https://i.imgur.com/GwUqRs3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/AYBBaKg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
